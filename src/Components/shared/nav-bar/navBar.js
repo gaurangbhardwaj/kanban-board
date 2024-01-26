@@ -65,9 +65,9 @@ export default function NavBar() {
   return (
     <nav>
       <button className="display-btn" onClick={openlist}>
-        <FontAwesomeIcon icon={faSlidersH} style={{ fontSize: "1vw" }} />{" "}
-        <span style={{ fontSize: "1vw" }}>Display</span>{" "}
-        <FontAwesomeIcon icon={faChevronDown} style={{ fontSize: "1vw" }} />
+        <FontAwesomeIcon icon={faSlidersH} style={{ fontSize: 12 }} />{" "}
+        <span style={{ fontSize: 16}}>Display</span>{" "}
+        <FontAwesomeIcon icon={faChevronDown} style={{ fontSize: 12 }} />
       </button>
       <div
         className="list-box"

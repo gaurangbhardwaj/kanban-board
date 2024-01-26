@@ -1,3 +1,4 @@
+import { memo } from "react";
 import { faCircle } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./ticketCard.css";
@@ -28,4 +29,4 @@ const TicketCard = ({ ticket, imgSrc }) => {
   );
 };
 
-export default TicketCard;
+export default memo(TicketCard);
