@@ -1,0 +1,47 @@
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.image-icon {
+  width: 14px;
+  height: 14px;
+}
+
+.card {
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 16px;
+  background-color: white;
+  box-shadow: 1px 1px 3px rgba(128, 128, 128, 0.814),
+    -1px -1px 3px rgba(128, 128, 128, 0.814);
+  border-radius: 6px;
+  padding: 8px;
+  gap: 6px;
+}
+
+.ids,
+.titles {
+  align-items: flex-start;
+  gap: 2px;
+  font-size: 12px;
+}
+
+.titles input[type="checkbox" i] {
+  margin-left: 0;
+}
+
+.ids {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: grey;
+}
+
+.ids img{
+  height: 14px;
+  width: 14px;
+  border-radius: 50%;
+}
